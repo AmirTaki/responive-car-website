@@ -1,0 +1,18 @@
+/* google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap");
+
+/* variables css  */
+:root {
+    --header-height : 3.5rem;
+
+    /* colors */
+--first-color : hsl(43, 90%, 50%);
+--first-color-alt : hsl(43, 88% 48%);
+--text-color : hsl(0, 0%, 42%);
+--text-colot-lighten : hsl(0, 0%, 92%);
+--black-color : hsl(0, 0%, 8%);
+--white-color : hsl(0, 0%, 100%);
+--body-color : hsl(0, 0%, 98%);
+--body-second-color : hsl(25, 70%, 55%);
+--shadw-img : -8px 8px 16px hsla(0, 0%, 0%, .2);
+}
