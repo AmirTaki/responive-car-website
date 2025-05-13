@@ -37,5 +37,19 @@
   /* z-index */
     --z-tooltip: 10;
     --z-fixed: 100;
+}
 
+/* responsive typography */
+@media screen and (min-width : 1150px) {
+    :root {
+        --biggest-font-size: 10.5rem;
+        --big-font-size: 5.5rem;
+        --h1-font-size: 3rem;
+        --h2-font-size: 1.5rem;
+        --h3-font-size: 1.25rem;
+        --normal-font-size: 1rem;
+        --small-font-size: .875rem;
+        --smaller-font-size: .813rem;
+
+    }
 }
