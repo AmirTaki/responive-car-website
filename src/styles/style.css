@@ -316,8 +316,32 @@ video {
     margin-inline: auto  ;
 }
 /* Swiper class */
+.swiper{
+    margin-inline:initial;
+    align-self:center;
+    margin-bottom: 1rem;
+}
 
+.swiper-pagination-bullets.swiper-pagination-horizontal {
+    height: max-content;
+    top : 30rem;
+    display: flex;
+    justify-content: center;
+    column-gap: 1.5rem;
+}
 
+.swiper-pagination-bullet {
+    color : var(--white-color);
+    opacity: 1;
+    background: none;
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-semi-bold);
+    transition: color .4s;
+}
+
+.swiper-pagination-bullet-active {
+    color : var(--black-color)
+}
 /*=============== BUTTON ===============*/
 
 
