@@ -229,7 +229,10 @@ video {
 }
 
 /* Change background header */
-
+.bg-header {
+    background-color: var(--body-color);
+    box-shadow: 0 4px 16px hsla(0, 0%, 0%, .1);
+}
 
 /* Active link */
 
