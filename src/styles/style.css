@@ -190,6 +190,33 @@ video {
     }
 }
 
+.nav__list {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.5rem;
+}
+
+.nav__link {
+    position: relative;
+    color : var(--black-color);
+    font-weight: var(--font-semi-bold);
+}
+
+.nav__link::after {
+    content: "";
+    width: 0;
+    height: 2px;
+    background-color: var(--black-color);
+    position: absolute;
+    left: 0;
+    bottom: -.5rem;
+    transition: width .4s;
+}
+
+.nav__link:hover::after {
+    width: 60%;
+}
 /* Show menu */
 
 
