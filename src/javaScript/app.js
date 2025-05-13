@@ -52,7 +52,7 @@ window.addEventListener('scroll', bgHander )
 //  ---------------------- SHOW SCROLL UP --------------------------
 const scrollUP =  () =>{
     const scrollUP = window.document.getElementById("scroll-up")
-    this.scrollUP >= 350 ? scrollUP.classList.add("show-scroll") :
+    this.scrollY >= 350 ? scrollUP.classList.add("show-scroll") :
                            scrollUP.classList.remove('show-scroll')
 }
 window.addEventListener('scroll', scrollUP)
