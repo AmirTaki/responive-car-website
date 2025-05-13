@@ -256,7 +256,10 @@ video {
 }
 
 .home__gradient {
-    
+    background: linear-gradient(180deg,
+                hsla(25, 70%, 55%, 0) 80%,
+                hsl(25, 70%, 55%) 100%
+    );
 }
 
 
