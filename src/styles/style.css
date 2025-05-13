@@ -675,7 +675,38 @@ video {
 
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
+@media screen and (max-width : 320px) {
+    .container {
+        margin-inline:  1rem;
+    }
 
+    .home__title {
+        font-size: 2rem;
+    }
+
+    .home__img {
+        width: 270px;
+    }
+
+    .about__video{
+        width: 200px;
+        height: 250px;
+    }
+    
+    .models__container{
+        grid-template-columns: 200px;
+    }
+
+    .info__data {
+        flex-direction: column;
+        align-items: center;
+        row-gap: 1rem;
+    }
+
+    .contact__img {
+        width: 200px;
+    }
+}
 
 /* For medium devices */
 
