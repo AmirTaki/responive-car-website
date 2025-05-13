@@ -235,6 +235,30 @@ video {
 
 
 /*=============== HOME ===============*/
+.home{
+    position: relative;
+    height: 730px;
+    background-color: var(--body-second-color);
+}
+
+.home__bg,
+.home__gradient {
+   position: absolute;
+   top : 0;
+   left : 0;
+   width: 100%;
+   height: 100%;
+}
+
+.home__bg {
+    object-fit: cover;
+    object-position: center;
+}
+
+.home__gradient {
+    
+}
+
 
 
 /* Swiper class */
