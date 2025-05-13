@@ -177,7 +177,18 @@ video {
 }
 
 /* Navigation for mobile devices */
-
+@media screen and (max-width : 1150px) {
+    .nav__menu {
+        position: fixed;
+        top:0;
+        left:0;
+        background-color: var(--body-color);
+        width: 100%;
+        padding-block: 4rem ;
+        box-shadow:  0 4px 16px hsla(0, 0%, 0%, .1);
+        transition: top .4s;
+    }
+}
 
 /* Show menu */
 
