@@ -180,7 +180,7 @@ video {
 @media screen and (max-width : 1150px) {
     .nav__menu {
         position: fixed;
-        top:0;
+        top: -120%;
         left:0;
         background-color: var(--body-color);
         width: 100%;
@@ -216,6 +216,12 @@ video {
 
 .nav__link:hover::after {
     width: 60%;
+}
+
+.nav__close {
+    position: absolute;
+    top: 1rem;
+    right: 1.5rem
 }
 /* Show menu */
 
