@@ -349,7 +349,47 @@ video {
 
 
 /*=============== ABOUT ===============*/
+.about {
+    background-color: var(--body-second-color);
+}
+.about__container {
+    padding-bottom:  3rem;
+    row-gap : 3rem;
+}
+.about__title {
+    color : var(--white-color)
+    ;margin-bottom: 1rem;
+}
+.about__title span {
+    color : var(--black-color)
+}
 
+.about__data {
+    text-align: center;
+}
+.about__description {
+    margin-bottom: 1.5rem;
+    color : var(--white-color)
+}
+
+.about__video {
+    position: relative;
+    width: 250px;
+    height: 320px;
+    justify-self: center;
+    box-shadow: var(--shadw-img);
+    transform: skew(-12deg);
+    display: grid;
+    overflow: hidden;
+}
+
+.about__file {
+    max-width: initial;
+    height: 320px;
+    transform: skew(12deg);
+    position: absolute;
+    justify-self: center;
+}
 
 /*=============== MODELS ===============*/
 
