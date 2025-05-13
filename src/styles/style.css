@@ -262,8 +262,59 @@ video {
     );
 }
 
+.home__data {
+    position: absolute;
+    top : 17rem;
+    justify-self: center;
+    text-align: center;
+}
 
+.home__subtitle {
+    font-size: var(--small-font-size);
+    font-weight: var(--font-semi-bold);
+    letter-spacing: 1px;
+    margin-bottom: .25rem;
+}
 
+.home__title {
+    font-size: var(--big-font-size);
+    font-weight: var(--font-extra-bold);
+    letter-spacing: 2px;
+    color:var(--white-color)
+}
+
+.home__button {
+    position: absolute;
+    bottom: 5rem;
+    justify-self: center;
+    color : var(--white-color);
+    width: 94px;
+    height: 94px;
+    border: 2px solid var(--white-color);
+    border-radius: 50%;
+    display: grid;
+    place-content: center;
+    text-align: center;
+    padding-top: 1rem;
+    z-index: 5;
+}
+
+.home__button span {
+    font-weight: var(--font-semi-bold);
+}
+
+.home__button i {
+    font-size:  1.5rem;
+}
+
+.home__swiper {
+    position: relative;
+}
+
+.home__img{
+    width: 300px;
+    margin-inline: auto  ;
+}
 /* Swiper class */
 
 
