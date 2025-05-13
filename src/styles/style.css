@@ -709,8 +709,30 @@ video {
 }
 
 /* For medium devices */
+@media screen and (min-width : 576px) {
+    .about__container,
+    .contact__container {
+        grid-template-columns: 400px;
+        justify-content: center;
+    }
 
+    .footer__container {
+        grid-template-columns: repeat(3, max-content);
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+}
 
+@media screen and (min-width : 768px) {
+    .models__card {
+        grid-template-columns: repeat(2, 250px);
+    }
+
+    .footer__links {
+        flex-direction: row;
+        column-gap: 1rem ;
+    }
+}
 /* For large devices */
 
 
