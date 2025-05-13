@@ -146,7 +146,35 @@ video {
 }
 
 /*=============== HEADER & NAV ===============*/
+.header {
+    position: fixed;
+    width: 100%;
+    top:0;
+    left:0;
+    background-color: transparent;
+    z-index: var(--z-fixed);
+    transition: background-color .4s, box-shadow .4s;
+}
 
+.nav {
+    position: relative;
+    height: var(--header-height);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__logo{
+   color : var(--black-color);
+   font-weight: var(--font-bold);
+}
+
+.nav__toggle, 
+.nav__close {
+    display:inline-flex;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
 
 /* Navigation for mobile devices */
 
