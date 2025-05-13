@@ -28,3 +28,12 @@ const linkAction = () =>{
 navLink.forEach(n => n.addEventListener("click", linkAction))
 
 //  ---------------------- SWIPER HOME --------------------------
+const swiperHome = new Swiper (".home__swiper",{
+    pagination : {
+        el : ".swiper-pagination",
+        clickkable : true,
+        renderBullet : (index, className) => {
+            return '<span class="' + className + '">' + String(index + 1).padStart(2, '0') + "</span>"
+        }
+    }
+})
